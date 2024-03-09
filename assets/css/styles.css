@@ -1,13 +1,15 @@
 body{
     padding: 0;
     margin: 0;
-    color: #322116;
+    color: #eefffa;
+    background-color: #0e0e11;
+    font-family: sans-serif;
 }
 header{
     height: 100px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #c1ab5e;
+    background-color: #00ac95;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,7 +25,7 @@ ul{
 
 .nav-btn{
     text-decoration: none;
-    color: #faf9f0;
+    color: #eefffa;
 }
 
 .hs-2{
@@ -32,9 +34,10 @@ ul{
 }
 
 .hs-2 input{
-    border: solid #785830 ;
+    border: solid #003733 ;
     border-radius: 5px;
-    color: #785830;
+    color: #003733;
+    background-color: #0e0e11;
 }
 
 .p-1{
@@ -49,9 +52,10 @@ main h1{
 
 .p-1 p{
     width: 95%;
-    background-color: #eeebd3;
+    background-color: #89ffe9;
     padding: 30px;
     border-radius: 20px;
+    color: #003733;
 }
 
 .b-group{
@@ -61,7 +65,11 @@ main h1{
 }
 
 .b-group a{
-    color: #322116;
+    text-decoration: none;
+    color: #008878;
+    padding: 15px;
+    border-radius: 20px;
+    border: #008878 solid;
 }
 
 .acerca-de{
@@ -86,18 +94,28 @@ main h1{
     align-items: center;
     padding: 15px;
     border-radius: 20px;
-    background-color: #dfd7a9;
+    background-color: #003733;
 }
 
-.card p{
-    color: #957539;
+.card-mv p{
+    color: #89ffe9;
 }
 
 .login{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
+}
+
+.login-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 25px;
+    border: #003733 solid;
+    border-radius: 25px;
+    width: 50%;
 }
 
 form{
@@ -114,7 +132,11 @@ form{
 }
 
 .login-btn{
-    color: #322116;
+    text-decoration: none;
+    color: #008878;
+    padding: 15px;
+    border-radius: 15%;
+    border: #008878 solid;
 }
 
 .repositorio{
@@ -135,9 +157,9 @@ form{
     gap: 35px;
     width: 70%;
     padding: 20px;
-    background-color: #785830;
-    border: #957539;
-    color: #f8f7ee;
+    background-color: #003733;
+    border: #036c61 solid;
+    color: #eefffa;
     border-radius: 25px;
 }
 
@@ -167,7 +189,8 @@ form{
     align-items: center;
     gap: 15px;
     width: 30%;
-    background-color: #957539bb;
+    background-color: #095850;
+    border: #0de7c3 solid;
     border-radius: 25px;
     padding: 20px;
 }
